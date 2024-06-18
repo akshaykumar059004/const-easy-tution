@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Legal buddy</title>
+
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/main.css">
+   </head>
+   <body>
+    
+      <header class="_header_hero_wrapper">
+        <br><br><br><br><br><br><br>
+               <div class="row _header_hero_top">
+                  <div class="col-xl-12 col-lg-12 col-12 col-sm-12 col-12">
+                     <br>
+                     <div class="_header_hero_top_content">
+                        <h1 class="_header_hero_top_content_h1">
+                           <span class="_header_hero_content_span">
+                              <span class="_header_hero_span_bg"></span>
+                              Buddy 
+                           </span>
+                          is ready to assist
+                        </h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <p class="_header_hero_top_content_p"> Click the icon to chat with your buddy</p>
+                        
+                     </div>
+                  </div>
+               </div><br><br><br> 
+                  <p class="chatbot">click here for conversation</p>
+                  <div>
+                     <style>
+                        /* Custom CSS to center the chatbot icon */
+                        #aichatbot {
+                            position: fixed;
+                            top: 98%;
+                            left: 69%;
+                            transform: translate(-50%, -50%);
+                            z-index: 1000; /* Ensure it appears above other elements */
+                        }
+                    </style>
+                
+                     <script>
+                        !function(w, d, s, ...args){
+                          var div = d.createElement('div');
+                          div.id = 'aichatbot';
+                          d.body.appendChild(div);
+                          w.chatbotConfig = args;
+                          var f = d.getElementsByTagName(s)[0],
+                          j = d.createElement(s);
+                          j.defer = true;
+                          j.type = 'module';
+                          j.src = 'https://aichatbot.sendbird.com/index.js';
+                          f.parentNode.insertBefore(j, f);
+                          
+                        }(window, document, 'script', 'C6B9615B-3478-4100-8D52-2E1F19CB3848', 'onboarding_bot', {
+                          apiHost: 'https://api-cf-ap-8.sendbird.com',
+                        });
+                        </script>
+                  </div>
+                  
+            </body>
+         </html>
+           
